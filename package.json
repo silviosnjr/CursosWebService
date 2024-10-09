@@ -1,5 +1,15 @@
 {
   "scripts": {
     "start": "node api/server.js"
+  },
+  "name": "cursoswebservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
   }
 }
