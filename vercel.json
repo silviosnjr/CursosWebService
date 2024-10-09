@@ -1,6 +1,6 @@
 {
     "builds": [
-      { "src": "api/piada.js", "use": "@vercel/node" }
+      { "src": "server.js", "use": "@vercel/node" }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "server.js" }
