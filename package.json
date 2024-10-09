@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node server.js"
   },
   "name": "cursoswebservice",
   "version": "1.0.0",
