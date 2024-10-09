@@ -1,10 +1,5 @@
 {
-  "name": "cursos-web-service",
-  "version": "1.0.0",
   "scripts": {
     "start": "node api/server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.1"
   }
 }
