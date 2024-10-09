@@ -6,7 +6,7 @@ const port = 3000;
 
 // Função para ler o arquivo JSON
 function getData() {
-    const data = fs.readFileSync('./cursos.json', 'utf-8');
+    const data = fs.readFileSync('./base_dados_cursos.json', 'utf-8');
     return JSON.parse(data);
 }
 
