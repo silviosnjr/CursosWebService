@@ -16,7 +16,7 @@ function getData() {
 app.get('/curso', (req, res) => {
     const nomeCurso = req.query.nome;
     const aulaNumero = req.query.aula;
-    const listarInstrutores = req.query.instrutor;
+    const listarInstrutores = req.query.instrutores;
     const listarAulas = req.query.aulas;
     const data = getData();
 
@@ -55,19 +55,21 @@ app.get('/curso', (req, res) => {
         }
     }
 
-    // Se o parâmetro 'instrutor=all' for passado, retornar os instrutores do curso
-    if (listarInstrutores === 'all') {
-        const instrutores = curso.Instrutor.split(', ').map(instrutor => instrutor.trim());
-        if (instrutores.length > 0) {
-            return res.json({ instrutores });
+     // Se o parâmetro 'instrutor=all' for passado, retornar os detalhes dos instrutores do curso
+     if (listarInstrutores === 'all') {
+        const instrutoresNomes = curso.Instrutor.split(', ').map(instrutor => instrutor.trim());
+        
+        // Procurar os registros completos dos instrutores no arquivo JSON
+        const instrutoresDetalhes = data.Instrutores.filter(instrutor =>
+            instrutoresNomes.includes(instrutor.nome)
+        );
+
+        if (instrutoresDetalhes.length > 0) {
+            return res.json(instrutoresDetalhes);
         } else {
             return res.status(404).send({ message: 'Nenhum instrutor encontrado para este curso' });
         }
     }
-
-    // Caso não seja passado 'aulas' ou 'aula', retornar o curso completo
-    res.json(curso);
-});
 
 // Novo endpoint para buscar instrutor por nome
 app.get('/instrutor', (req, res) => {
