@@ -7,7 +7,7 @@
             "Icone": "spring_framework_FTN500.svg",
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
-            "Instrutor": "Bianca Martins, Bianca Martins",
+            "Instrutor": "Bianca Martins, Leonardo Lima",
             "id": "c4834"
         },
         {
@@ -245,7 +245,7 @@
             "Criacao": "2024-08-26",
             "duracao": "8h",
             "Icone": "hibernate_basico_YKTL500.svg",
-            "Escola": "Banco de Dados",
+            "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Joaquim Felipe, Bianca Martins",
             "id": "c5320"
@@ -315,7 +315,7 @@
             "Criacao": "2024-09-11",
             "duracao": "10h",
             "Icone": "hibernate_basico_YKTL500.svg",
-            "Escola": "Banco de Dados",
+            "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Maria Helena, Leonardo Lima",
             "id": "c4434"
@@ -325,7 +325,7 @@
             "Criacao": "2024-07-31",
             "duracao": "13h",
             "Icone": "hibernate_basico_YKTL500.svg",
-            "Escola": "Banco de Dados",
+            "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Fernando Costa, Fernando Costa",
             "id": "c7087"
@@ -365,7 +365,7 @@
             "Criacao": "2024-08-21",
             "duracao": "9h",
             "Icone": "hibernate_basico_YKTL500.svg",
-            "Escola": "Banco de Dados",
+            "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Joaquim Felipe, Fernando Costa",
             "id": "c6691"
@@ -405,7 +405,7 @@
             "Criacao": "2024-08-21",
             "duracao": "7h",
             "Icone": "hibernate_basico_YKTL500.svg",
-            "Escola": "Banco de Dados",
+            "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Joaquim Felipe, Clara Silva",
             "id": "c4949"
@@ -415,7 +415,7 @@
             "Criacao": "2024-07-24",
             "duracao": "6h",
             "Icone": "hibernate_basico_YKTL500.svg",
-            "Escola": "Banco de Dados",
+            "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Jos\u00e9 Ricardo, Joaquim Felipe",
             "id": "c5088"
@@ -11081,5 +11081,57 @@
             "id": "t2651",
             "idAula": "a9260"
         }
-    ]
+    ],
+    "Instrutores": [
+        {
+            "id": 1,
+            "nome": "Bianca Martins",
+            "descricao": "Bianca Martins é bacharel em Sistemas de Informação pela UFRJ, especialista em metodologias ágeis, com 6 anos de experiência na área de DevOps."
+        },
+        {
+            "id": 2,
+            "nome": "Carlos Eduardo",
+            "descricao": "Com 4 anos de experiência em back-end, Carlos Eduardo é formado(a) em Ciências da Computação pela PUC e gosta de explorar novas tecnologias no tempo livre."
+        },
+        {
+            "id": 3,
+            "nome": "Leonardo Lima",
+            "descricao": "Leonardo Lima possui mestrado em Inteligência Artificial e já atuou como desenvolvedor(a) sênior em grandes projetos. Ele(a) também adora maratonar séries de ficção científica."
+        },
+        {
+            "id": 4,
+            "nome": "Ana Beatriz",
+            "descricao": "Graduado(a) em Ciências da Computação, Ana Beatriz é entusiasta de open source e já trabalhou em startups focadas em machine learning. Nos tempos livres, gosta de tocar guitarra."
+        },
+        {
+            "id": 5,
+            "nome": "José Ricardo",
+            "descricao": "Formado(a) em Engenharia de Software pela Universidade de São Paulo, José Ricardo tem 5 anos de experiência em desenvolvimento ágil e é apaixonado(a) por ensinar."
+        },
+        {
+            "id": 6,
+            "nome": "Juliana Souza",
+            "descricao": "Juliana Souza é bacharel em Sistemas de Informação pela UFRJ, especialista em metodologias ágeis, com 6 anos de experiência na área de DevOps."
+        },
+        {
+            "id": 7,
+            "nome": "Fernando Costa",
+            "descricao": "Com 4 anos de experiência em back-end, Fernando Costa é formado(a) em Ciências da Computação pela PUC e gosta de explorar novas tecnologias no tempo livre."
+        },
+        {
+            "id": 8,
+            "nome": "Maria Helena",
+            "descricao": "Maria Helena possui mestrado em Inteligência Artificial e já atuou como desenvolvedor(a) sênior em grandes projetos. Ele(a) também adora maratonar séries de ficção científica."
+        },
+        {
+            "id": 9,
+            "nome": "Clara Silva",
+            "descricao": "Graduado(a) em Ciências da Computação, Clara Silva é entusiasta de open source e já trabalhou em startups focadas em machine learning. Nos tempos livres, gosta de tocar guitarra."
+        },
+        {
+            "id": 10,
+            "nome": "Joaquim Felipe",
+            "descricao": "Formado(a) em Engenharia de Software pela Universidade de São Paulo, Joaquim Felipe tem 5 anos de experiência em desenvolvimento ágil e é apaixonado(a) por ensinar."
+        }
+    ]    
 }
