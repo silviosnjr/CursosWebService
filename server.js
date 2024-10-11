@@ -16,7 +16,7 @@ function getData() {
 app.get('/curso', (req, res) => {
     const nomeCurso = req.query.nome;
     const aulaNumero = req.query.aula;
-    const listarInstrutores = req.query.instrutores;
+    const listarInstrutores = req.query.instrutor;
     const listarAulas = req.query.aulas;
     const data = getData();
 
@@ -70,6 +70,10 @@ app.get('/curso', (req, res) => {
             return res.status(404).send({ message: 'Nenhum instrutor encontrado para este curso' });
         }
     }
+
+    // Caso não seja passado 'aulas' ou 'aula', retornar o curso completo
+    res.json(curso);
+});
 
 // Novo endpoint para buscar instrutor por nome
 app.get('/instrutor', (req, res) => {
