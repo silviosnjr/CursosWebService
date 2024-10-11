@@ -8,6 +8,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Bianca Martins, Leonardo Lima",
+            "Avaliacao" : "9.0",
             "id": "c4834"
         },
         {
@@ -18,6 +19,7 @@
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
             "Instrutor": "Carlos Eduardo, Leonardo Lima",
+            "Avaliacao" : "9.0",
             "id": "c7203"
         },
         {
@@ -28,6 +30,7 @@
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
             "Instrutor": "Ana Beatriz, Bianca Martins",
+            "Avaliacao" : "9.5",
             "id": "c5876"
         },
         {
@@ -38,6 +41,7 @@
             "Escola": "DevOps",
             "Habilidades": "Git b\u00e1sico, Versionamento, Pull Request",
             "Instrutor": "Jos\u00e9 Ricardo, Ana Beatriz",
+            "Avaliacao" : "8.0",
             "id": "c2273"
         },
         {
@@ -48,6 +52,7 @@
             "Escola": "Banco de Dados",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Leonardo Lima, Juliana Souza",
+            "Avaliacao" : "9.5",
             "id": "c9763"
         },
         {
@@ -58,6 +63,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Carlos Eduardo, Fernando Costa",
+            "Avaliacao" : "9.0",
             "id": "c2470"
         },
         {
@@ -68,6 +74,7 @@
             "Escola": "Back-End",
             "Habilidades": "Heran\u00e7a, Polimorfismo, Streams, Multithreading",
             "Instrutor": "Ana Beatriz, Bianca Martins",
+            "Avaliacao" : "8",
             "id": "c6479"
         },
         {
@@ -78,6 +85,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Juliana Souza, Maria Helena",
+            "Avaliacao" : "",
             "id": "c1388"
         },
         {
@@ -88,6 +96,7 @@
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
             "Instrutor": "Clara Silva, Joaquim Felipe",
+            "Avaliacao" : "8.0",
             "id": "c5305"
         },
         {
@@ -97,7 +106,8 @@
             "Icone": "docker_basico_FJT500.svg",
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
-            "Instrutor": "Bianca Martins, Leonardo Lima",
+            "Instrutor": "Bianca Martins",
+            "Avaliacao" : "7.5",
             "id": "c4633"
         },
         {
@@ -108,6 +118,7 @@
             "Escola": "DevOps",
             "Habilidades": "Git b\u00e1sico, Versionamento, Pull Request",
             "Instrutor": "Jos\u00e9 Ricardo, Ana Beatriz",
+            "Avaliacao" : "8.0",
             "id": "c3236"
         },
         {
@@ -118,6 +129,7 @@
             "Escola": "Banco de Dados",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Juliana Souza, Joaquim Felipe",
+            "Avaliacao" : "9.3",
             "id": "c7162"
         },
         {
@@ -127,7 +139,8 @@
             "Icone": "java_oop_basics_DHJ500.svg",
             "Escola": "Back-End",
             "Habilidades": "Heran\u00e7a, Polimorfismo, Streams, Multithreading",
-            "Instrutor": "Joaquim Felipe, Bianca Martins",
+            "Instrutor": "Joaquim Felipe",
+            "Avaliacao" : "9.6",
             "id": "c9064"
         },
         {
@@ -138,6 +151,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Juliana Souza, Clara Silva",
+            "Avaliacao" : "8.9",
             "id": "c5383"
         },
         {
@@ -148,6 +162,7 @@
             "Escola": "Back-End",
             "Habilidades": "Heran\u00e7a, Polimorfismo, Streams, Multithreading",
             "Instrutor": "Clara Silva, Carlos Eduardo",
+            "Avaliacao" : "9.1",
             "id": "c3944"
         },
         {
@@ -157,7 +172,8 @@
             "Icone": "spring_framework_FTN500.svg",
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
-            "Instrutor": "Carlos Eduardo, Ana Beatriz",
+            "Instrutor": "Carlos Eduardo",
+            "Avaliacao" : "8.8",
             "id": "c8526"
         },
         {
@@ -168,6 +184,7 @@
             "Escola": "DevOps",
             "Habilidades": "Git b\u00e1sico, Versionamento, Pull Request",
             "Instrutor": "Ana Beatriz, Joaquim Felipe",
+            "Avaliacao" : "9.0",
             "id": "c6561"
         },
         {
@@ -178,6 +195,7 @@
             "Escola": "Back-End",
             "Habilidades": "Heran\u00e7a, Polimorfismo, Streams, Multithreading",
             "Instrutor": "Maria Helena, Jos\u00e9 Ricardo",
+            "Avaliacao" : "9.2",
             "id": "c6693"
         },
         {
@@ -188,6 +206,7 @@
             "Escola": "Banco de Dados",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Joaquim Felipe, Ana Beatriz",
+            "Avaliacao" : "8.5",
             "id": "c2548"
         },
         {
@@ -198,6 +217,7 @@
             "Escola": "Banco de Dados",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Bianca Martins, Juliana Souza",
+            "Avaliacao" : "7.8",
             "id": "c2496"
         },
         {
@@ -208,6 +228,7 @@
             "Escola": "Banco de Dados",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Leonardo Lima, Maria Helena",
+            "Avaliacao" : "8.9",
             "id": "c4978"
         },
         {
@@ -217,7 +238,8 @@
             "Icone": "hibernate_basico_YKTL500.svg",
             "Escola": "Banco de Dados",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
-            "Instrutor": "Bianca Martins, Clara Silva",
+            "Instrutor": "Bianca Martins",
+            "Avaliacao" : "9.0",
             "id": "c3357"
         },
         {
@@ -227,7 +249,8 @@
             "Icone": "java_oop_basics_DHJ500.svg",
             "Escola": "Back-End",
             "Habilidades": "Heran\u00e7a, Polimorfismo, Streams, Multithreading",
-            "Instrutor": "Juliana Souza, Juliana Souza",
+            "Instrutor": "Juliana Souza",
+            "Avaliacao" : "9.0",
             "id": "c7797"
         },
         {
@@ -237,7 +260,8 @@
             "Icone": "hibernate_basico_YKTL500.svg",
             "Escola": "Banco de Dados",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
-            "Instrutor": "Leonardo Lima, Clara Silva",
+            "Instrutor": "Leonardo Lima",
+            "Avaliacao" : "9.5",
             "id": "c5457"
         },
         {
@@ -248,6 +272,7 @@
             "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Joaquim Felipe, Bianca Martins",
+            "Avaliacao" : "9.4",
             "id": "c5320"
         },
         {
@@ -258,6 +283,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Clara Silva, Ana Beatriz",
+            "Avaliacao" : "9.0",
             "id": "c8509"
         },
         {
@@ -268,6 +294,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Juliana Souza, Fernando Costa",
+            "Avaliacao" : "8.0",
             "id": "c8557"
         },
         {
@@ -278,6 +305,7 @@
             "Escola": "DevOps",
             "Habilidades": "Git b\u00e1sico, Versionamento, Pull Request",
             "Instrutor": "Juliana Souza, Carlos Eduardo",
+            "Avaliacao" : "9.5",
             "id": "c4255"
         },
         {
@@ -288,6 +316,7 @@
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
             "Instrutor": "Carlos Eduardo, Ana Beatriz",
+            "Avaliacao" : "9.5",
             "id": "c8923"
         },
         {
@@ -297,7 +326,8 @@
             "Icone": "docker_basico_FJT500.svg",
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
-            "Instrutor": "Juliana Souza, Leonardo Lima",
+            "Instrutor": "Juliana Souza",
+            "Avaliacao" : "9.5",
             "id": "c8590"
         },
         {
@@ -308,6 +338,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Leonardo Lima, Juliana Souza",
+            "Avaliacao" : "9.5",
             "id": "c3742"
         },
         {
@@ -317,7 +348,8 @@
             "Icone": "hibernate_basico_YKTL500.svg",
             "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
-            "Instrutor": "Maria Helena, Leonardo Lima",
+            "Instrutor": "Maria Helena",
+            "Avaliacao" : "8.5",
             "id": "c4434"
         },
         {
@@ -328,6 +360,7 @@
             "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Fernando Costa, Fernando Costa",
+            "Avaliacao" : "8.5",
             "id": "c7087"
         },
         {
@@ -338,6 +371,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Maria Helena, Fernando Costa",
+            "Avaliacao" : "8.5",
             "id": "c4667"
         },
         {
@@ -348,6 +382,7 @@
             "Escola": "Back-End",
             "Habilidades": "Heran\u00e7a, Polimorfismo, Streams, Multithreading",
             "Instrutor": "Ana Beatriz, Bianca Martins",
+            "Avaliacao" : "7.8",
             "id": "c1493"
         },
         {
@@ -358,6 +393,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Fernando Costa, Leonardo Lima",
+            "Avaliacao" : "7.8",
             "id": "c9119"
         },
         {
@@ -367,7 +403,8 @@
             "Icone": "hibernate_basico_YKTL500.svg",
             "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
-            "Instrutor": "Joaquim Felipe, Fernando Costa",
+            "Instrutor": "Fernando Costa",
+            "Avaliacao" : "7.8",
             "id": "c6691"
         },
         {
@@ -378,6 +415,7 @@
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
             "Instrutor": "Leonardo Lima, Juliana Souza",
+            "Avaliacao" : "7.8",
             "id": "c7513"
         },
         {
@@ -388,6 +426,7 @@
             "Escola": "DevOps",
             "Habilidades": "Git b\u00e1sico, Versionamento, Pull Request",
             "Instrutor": "Clara Silva, Jos\u00e9 Ricardo",
+            "Avaliacao" : "8.1",
             "id": "c8248"
         },
         {
@@ -398,6 +437,7 @@
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
             "Instrutor": "Leonardo Lima, Joaquim Felipe",
+            "Avaliacao" : "8.1",
             "id": "c9867"
         },
         {
@@ -408,6 +448,7 @@
             "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
             "Instrutor": "Joaquim Felipe, Clara Silva",
+            "Avaliacao" : "8.1",
             "id": "c4949"
         },
         {
@@ -417,7 +458,8 @@
             "Icone": "hibernate_basico_YKTL500.svg",
             "Escola": "Banco de Dados, Back-End",
             "Habilidades": "ORM, Mapeamento de Tabelas, Sess\u00f5es e Transa\u00e7\u00f5es",
-            "Instrutor": "Jos\u00e9 Ricardo, Joaquim Felipe",
+            "Instrutor": "Joaquim Felipe",
+            "Avaliacao" : "8.2",
             "id": "c5088"
         },
         {
@@ -428,6 +470,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Ana Beatriz, Joaquim Felipe",
+            "Avaliacao" : "8.1",
             "id": "c5796"
         },
         {
@@ -438,6 +481,7 @@
             "Escola": "DevOps",
             "Habilidades": "Git b\u00e1sico, Versionamento, Pull Request",
             "Instrutor": "Joaquim Felipe, Leonardo Lima",
+            "Avaliacao" : "9.6",
             "id": "c4360"
         },
         {
@@ -448,6 +492,7 @@
             "Escola": "DevOps",
             "Habilidades": "Cria\u00e7\u00e3o de Containers, Imagens Docker, Dockerfile",
             "Instrutor": "Maria Helena, Maria Helena",
+            "Avaliacao" : "9.6",
             "id": "c6029"
         },
         {
@@ -458,6 +503,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Joaquim Felipe, Leonardo Lima",
+            "Avaliacao" : "9.6",
             "id": "c2568"
         },
         {
@@ -468,6 +514,7 @@
             "Escola": "Back-End",
             "Habilidades": "Heran\u00e7a, Polimorfismo, Streams, Multithreading",
             "Instrutor": "Leonardo Lima, Joaquim Felipe",
+            "Avaliacao" : "9.4",
             "id": "c4686"
         },
         {
@@ -478,6 +525,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Jos\u00e9 Ricardo, Maria Helena",
+            "Avaliacao" : "9.4",
             "id": "c4665"
         },
         {
@@ -487,7 +535,8 @@
             "Icone": "git_versionamento_FTR500.svg",
             "Escola": "DevOps",
             "Habilidades": "Git b\u00e1sico, Versionamento, Pull Request",
-            "Instrutor": "Maria Helena, Carlos Eduardo",
+            "Instrutor": "Maria Helena",
+            "Avaliacao" : "9.3",
             "id": "c1463"
         },
         {
@@ -498,6 +547,7 @@
             "Escola": "Back-End",
             "Habilidades": "Inje\u00e7\u00e3o de Depend\u00eancia, Controle de Transa\u00e7\u00f5es, Spring MVC",
             "Instrutor": "Ana Beatriz, Clara Silva",
+            "Avaliacao" : "9.2",
             "id": "c7692"
         }
     ],
