@@ -12,13 +12,6 @@ function getData() {
     return JSON.parse(data);
 }
 
-// Função para ler o arquivo JSON dos instrutores
-function getInstrutores() {
-    const instrutoresPath = path.join(__dirname, 'instrutores.json'); // Assumindo que você tenha um arquivo 'instrutores.json'
-    const data = fs.readFileSync(instrutoresPath, 'utf-8');
-    return JSON.parse(data);
-}
-
 // Endpoint para buscar curso por nome, listar aulas ou listar atividades
 app.get('/curso', (req, res) => {
     const nomeCurso = req.query.nome;
@@ -69,7 +62,6 @@ app.get('/curso', (req, res) => {
 app.get('/instrutor', (req, res) => {
     const nomeInstrutor = req.query.nome;
     const listarCursos = req.query.cursos;
-    const instrutores = getInstrutores();
     const data = getData();
 
     // Procurar o instrutor no campo 'Instrutor' de cada curso
@@ -85,19 +77,13 @@ app.get('/instrutor', (req, res) => {
         }
     }else{
         // Procurar o instrutor pelo nome
-        const instrutor = instrutores.find(instrutor =>
-            instrutor.nome.toLowerCase() === nomeInstrutor.toLowerCase()
-        );
+        const instrutor = data.Instrutores.find(curso => instrutor.nome.toLowerCase() === nomeInstrutor.toLowerCase());
 
-        if (instrutor) {
-            return res.json({
-                id: instrutor.id,
-                nome: instrutor.nome,
-                descricao: instrutor.descricao
-            });
-        } else {
+        if (!instrutor) {
             return res.status(404).send({ message: 'Instrutor não encontrado' });
         }
+        
+        res.json(instrutor);
     }
 
 });
