@@ -12,6 +12,13 @@ function getData() {
     return JSON.parse(data);
 }
 
+// Função para ler o arquivo JSON dos instrutores
+function getInstrutores() {
+    const instrutoresPath = path.join(__dirname, 'instrutores.json'); // Assumindo que você tenha um arquivo 'instrutores.json'
+    const data = fs.readFileSync(instrutoresPath, 'utf-8');
+    return JSON.parse(data);
+}
+
 // Endpoint para buscar curso por nome, listar aulas ou listar atividades
 app.get('/curso', (req, res) => {
     const nomeCurso = req.query.nome;
@@ -61,18 +68,38 @@ app.get('/curso', (req, res) => {
 // Novo endpoint para buscar instrutor por nome
 app.get('/instrutor', (req, res) => {
     const nomeInstrutor = req.query.nome;
+    const listarCursos = req.query.cursos;
+    const instrutores = getInstrutores();
     const data = getData();
 
     // Procurar o instrutor no campo 'Instrutor' de cada curso
-    const cursosInstrutor = data.Cursos.filter(curso =>
-        curso.Instrutor.toLowerCase().includes(nomeInstrutor.toLowerCase())
-    );
+    if (listarCursos === 'all') {
+        const cursosInstrutor = data.Cursos.filter(curso =>
+            curso.Instrutor.toLowerCase().includes(nomeInstrutor.toLowerCase())
+        );
+    
+        if (cursosInstrutor.length > 0) {
+            return res.json(cursosInstrutor);
+        } else {
+            return res.status(404).send({ message: 'Instrutor não encontrado ou sem cursos associados' });
+        }
+    }else{
+        // Procurar o instrutor pelo nome
+        const instrutor = instrutores.find(instrutor =>
+            instrutor.nome.toLowerCase() === nomeInstrutor.toLowerCase()
+        );
 
-    if (cursosInstrutor.length > 0) {
-        return res.json(cursosInstrutor);
-    } else {
-        return res.status(404).send({ message: 'Instrutor não encontrado ou sem cursos associados' });
+        if (instrutor) {
+            return res.json({
+                id: instrutor.id,
+                nome: instrutor.nome,
+                descricao: instrutor.descricao
+            });
+        } else {
+            return res.status(404).send({ message: 'Instrutor não encontrado' });
+        }
     }
+
 });
 
 // Iniciar o servidor
