@@ -63,14 +63,13 @@ app.get('/instrutor', (req, res) => {
     const nomeInstrutor = req.query.nome;
     const data = getData();
 
-    const instrutor = data.Instrutores.find(curso => instrutor.nome.toLowerCase() === nomeInstrutor.toLowerCase());
+    const instrutor = data.Instrutores.find(instrutor => instrutor.nome.toLowerCase() === nomeInstrutor.toLowerCase());
 
     if (!instrutor) {
         return res.status(404).send({ message: 'Instrutor não encontrado' });
     }
     
     res.json(instrutor);
-
 });
 
 // Iniciar o servidor
