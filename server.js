@@ -61,30 +61,15 @@ app.get('/curso', (req, res) => {
 // Novo endpoint para buscar instrutor por nome
 app.get('/instrutor', (req, res) => {
     const nomeInstrutor = req.query.nome;
-    const listarCursos = req.query.cursos;
     const data = getData();
 
-    // Procurar o instrutor no campo 'Instrutor' de cada curso
-    if (listarCursos === 'all') {
-        const cursosInstrutor = data.Cursos.filter(curso =>
-            curso.Instrutor.toLowerCase().includes(nomeInstrutor.toLowerCase())
-        );
-    
-        if (cursosInstrutor.length > 0) {
-            return res.json(cursosInstrutor);
-        } else {
-            return res.status(404).send({ message: 'Instrutor não encontrado ou sem cursos associados' });
-        }
-    }else{
-        // Procurar o instrutor pelo nome
-        const instrutor = data.Instrutores.find(curso => instrutor.nome.toLowerCase() === nomeInstrutor.toLowerCase());
+    const instrutor = data.Instrutores.find(curso => instrutor.nome.toLowerCase() === nomeInstrutor.toLowerCase());
 
-        if (!instrutor) {
-            return res.status(404).send({ message: 'Instrutor não encontrado' });
-        }
-        
-        res.json(instrutor);
+    if (!instrutor) {
+        return res.status(404).send({ message: 'Instrutor não encontrado' });
     }
+    
+    res.json(instrutor);
 
 });
 
