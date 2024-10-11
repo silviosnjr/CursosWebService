@@ -16,6 +16,7 @@ function getData() {
 app.get('/curso', (req, res) => {
     const nomeCurso = req.query.nome;
     const aulaNumero = req.query.aula;
+    const listarInstrutores = req.query.instrutor;
     const listarAulas = req.query.aulas;
     const data = getData();
 
@@ -51,6 +52,16 @@ app.get('/curso', (req, res) => {
             return res.json(atividades);
         } else {
             return res.status(404).send({ message: 'Nenhuma atividade encontrada para esta aula' });
+        }
+    }
+
+    // Se o parâmetro 'instrutor=all' for passado, retornar os instrutores do curso
+    if (listarInstrutores === 'all') {
+        const instrutores = curso.Instrutor.split(', ').map(instrutor => instrutor.trim());
+        if (instrutores.length > 0) {
+            return res.json({ instrutores });
+        } else {
+            return res.status(404).send({ message: 'Nenhum instrutor encontrado para este curso' });
         }
     }
 
