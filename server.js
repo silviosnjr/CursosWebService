@@ -43,7 +43,7 @@ app.get('/curso', (req, res) => {
         const aula = data.Aulas.find(aula => aula.Numero === aulaNumero);
 
         if (!aula) {
-            return res.status(404).send({ message: 'Aula não encontrada...' });
+            return res.status(404).send({ message: 'Aula não encontrada...'+aulaNumero+" aula.Numero: "+aula.Numero });
         }
 
         // Procurar as atividades da aula
