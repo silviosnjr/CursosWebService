@@ -39,10 +39,11 @@ app.get('/curso', (req, res) => {
 
     // Se o parâmetro 'aula' for passado, retornar as atividades da aula correspondente
     if (aulaNumero) {
-        const aula = data.Aulas.find(aula => aula.Numero === aulaNumero && aula.idCurso === curso.id);
+        //const aula = data.Aulas.find(aula => aula.Numero === aulaNumero && aula.idCurso === curso.id);
+        const aula = data.Aulas.find(aula => aula.Numero === aulaNumero);
 
         if (!aula) {
-            return res.status(404).send({ message: 'Aula não encontrada' });
+            return res.status(404).send({ message: 'Aula não encontrada.' });
         }
 
         // Procurar as atividades da aula
