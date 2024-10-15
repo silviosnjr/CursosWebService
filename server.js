@@ -15,7 +15,7 @@ function getData() {
 // Endpoint para buscar curso por nome, listar aulas ou listar atividades
 app.get('/curso', (req, res) => {
     const nomeCurso = req.query.nome;
-    const aulaNumero = req.query.aula;
+    const aulaId = req.query.aula;
     const listarInstrutores = req.query.instrutor;
     const listarAulas = req.query.aulas;
     const data = getData();
@@ -38,12 +38,12 @@ app.get('/curso', (req, res) => {
     }
 
     // Se o parâmetro 'aula' for passado, retornar as atividades da aula correspondente
-    if (aulaNumero) {
+    if (aulaId) {
         //const aula = data.Aulas.find(aula => aula.Numero === aulaNumero && aula.idCurso === curso.id);
-        const aula = data.Aulas.filter(aula => aula.Numero === aulaNumero);
+        const aula = data.Aulas.find(aula => aula.id === aulaId);
 
         if (!aula) {
-            return res.status(404).send({ message: 'Aula não encontrada... +'+aulaNumero});
+            return res.status(404).send({ message: 'Aula não encontrada... '+aulaId});
         }
 
         // Procurar as atividades da aula
@@ -52,7 +52,7 @@ app.get('/curso', (req, res) => {
         if (atividades.length > 0) {
             return res.json(atividades);
         } else {
-            return res.status(404).send({ message: 'Nenhuma atividade encontrada para esta aula' });
+            return res.status(404).send({ message: 'Nenhuma atividade encontrada para esta aula | idAula '+aulaNumero });
         }
     }
 
